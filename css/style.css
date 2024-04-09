@@ -3470,11 +3470,11 @@ h3 {
 
 @media (max-width: 767px) {
   .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 33px;
   }
   .portfolio_image_area .single_Portfolio .portfolio_hover p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 30px;
     margin-left: 6px;
     margin-right: 6px;
@@ -3484,7 +3484,7 @@ h3 {
 @media (min-width: 768px) and (max-width: 991px) {
   .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
     font-size: 18px;
-    line-height: 32px;
+    line-height: 33px;
   }
   .portfolio_image_area .single_Portfolio .portfolio_hover p {
     font-size: 12px;
@@ -3496,8 +3496,16 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .portfolio_image_area.dec_margin {
-    padding: 100px 0;
+  .portfolio_image_area .single_Portfolio .portfolio_hover h3 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .portfolio_image_area .single_Portfolio .portfolio_hover p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 12px;
+    margin-right: 6px;
+    margin-bottom: 6px;
   }
 }
 
@@ -5355,7 +5363,6 @@ h6 {
 /* line 14, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
   background: -webkit-linear-gradient(131deg, #3F09FF 0%, #3F09FF 99%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -5419,7 +5426,6 @@ h6 {
 .single-blog .tag {
   text-align: left;
   display: inline-block;
-  float: left;
   font-size: 12px;
   font-weight: 300;
   margin-right: 22px;
@@ -6847,7 +6853,6 @@ h6 {
 /* line 76, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a:hover {
   background: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -6955,9 +6960,7 @@ h6 {
   -webkit-transition: 0.8s;
   transition: 0.8s;
   background: -webkit-linear-gradient(131deg, #feb47b 0%, #ff7e5f 99%);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: 1s;
 }
 
 /* line 150, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_blog_part.scss */
