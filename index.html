@@ -1,250 +1,784 @@
-<!DOCTYPE HTML>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Shengkai Chen Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ShengKai Chen</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">SHENGKAI CHEN</a></h1>
-						<nav>
-							<!--<a href="#menu">Menu</a>-->
-							<a href="index.html">HOME</a>
-							<a href="#one">ABOUT ME</a>
-							<a href="#four">PROJECTS</a>
-							<a href="#footer">CONTACT</a>
-						</nav>
-					</header>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">About Me</a></li>
-								<li><a href="elements.html">Resume</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
+<body>
+    <!-- slider area start -->
+    <div class="slider_area">
+        <div class="single_slider d-flex align-items-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center">
+                            <h3>Greetings! This is ShengKai</h3>
+                            <span>I am a </span>
+                            <span class="typed-text-output text-secondary d-inline"></span>
+                            <div class="typed-text d-none">Data Scientist, Cloud Architecture, Lifelong Learner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section id="#main">
+                <video autoplay muted loop id="portfolioBanner" class="back-video">
+                    <source src="../img/banner/portfolio_banner.mp4" type="video/mp4">
+                </video>
+            </section>
+        </div>
+    </div>
+    <!-- slider area end -->
 
-				<!-- Banner -->
-					<section id="banner">
-						<div class="inner">
-							<h2>SHENGKAI CHEN PORTFOLIO</h2>
+    <!-- header start -->
+    <header>
+        <div class="header-area">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/header/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="main-menu d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li>
+                                            <a>
+                                                <img src="img/header/menu.png" alt="">Menu
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="#about_me">About</a></li>
+                                                <li><a href="#service_area">Services</a></li>
+                                                <li><a href="#portfolio_image_area">Portfolio</a></li>
+                                                <li><a href="#discuss_projects">Contact</a></li>
+                                                <li><a href="https://drive.google.com/file/d/16iixCmWZdpH_u2mf_KEa1cqtq8t4ELyw/view?usp=sharing" target="_blank">Resume</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
 
-							<p><span class="fa fa-quote-left fa-flip-vertical pull-left"></span><strong> I believe any company can benefit from data science with the proper method and data.</strong>
-								<span class="fa fa-quote-right pull-right"></span><strong>　　　</strong><a href="https://www.linkedin.com/in/sheng-kai-chen/">ShengkaiTheDataScientist</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
 
-						</div>
-					</section>
+    <!-- about me  -->
+    <div class="about_me" id="about_me">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-4 col-md-4">
+                    <div class="about_img">
+                        <div class="my_Pic">
+                                <img src="img/about/about.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="about_e_details">
+                        <div class="col-xl-12">
+                            <div class="section_title white_text text-center mb-65">
+                                <h3>About me</h3>
+                            </div>
+                        </div>
+                        <p>
+                            As an emerging Data Scientist and Cloud Architect, concentrated on integrating artificial intelligence and machine learning 
+                            into AI-driven solutions across multiple platforms. <br><br>
+                            Years of study in machine learning, cloud deployments, and product development have culminated in a desire to apply 
+                            comprehensive knowledge in data science and software development, aiming to design innovative technical solutions to 
+                            address complex business challenges. <br><br>
+                            If you are on the lookout for a data-driven innovator with expert proficiency in Python, Model Deployment, 
+                            Cloud Applications, Large Language Models (LLM), and Artificial Intelligence (AI), I stand at the ready.
+                        </p>
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/sheng-kai-chen/" target="_blank">
+                                        <i class="fa fa-linkedin-square fa-2x fa-align-center"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.github.com/shengkaichen" target="_blank">
+                                        <i class="fa fa-github-square fa-2x fa-align-center"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://medium.com/@shengkaikenchen" target="_blank">
+                                        <i class="fa fa-medium fa-2x fa-align-center"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://author.skills.network/instructors/sheng-kai_chen_2" target="_blank">
+                                        <i class="custom-logo">
+                                            <img src="img/about/sn-logo.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://public.tableau.com/app/profile/ken.chen6551/vizzes" target="_blank">
+                                        <i class="custom-logo">
+                                            <img src="img/about/tableau-public-logo.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.credly.com/users/sheng-kai-chen/badges" target="_blank">
+                                        <i class="custom-logo">
+                                            <img src="img/about/credly-logo.svg" alt="">
+                                        </i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="counter_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-md-3">
+                        <div class="single_counter text-center">
+                            <h3>
+                                <span class="counter">4</span><span>+</span>
+                            </h3>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-md-3">
+                        <div class="single_counter text-center">
+                            <h3>
+                                <span class="counter">18</span>
+                            </h3>
+                            <p>Projects done</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-md-3">
+                        <div class="single_counter text-center">
+                            <h3>
+                                <span class="counter">95</span><span>%</span>
+                            </h3>
+                            <p>Job Success</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about me  -->
 
-				<!-- Wrapper -->
-					<section id="wrapper">
+    <!-- service area  -->
+    <div class="service_area" id="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title white_text text-center mb-65">
+                        <h3> Elevate your project with these services </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/ai.png" alt="">
+                        </div>
+                        <h3>Generative AI</h3>
+                        <p>Utilize generative AI to create personalized and engaging user experiences, elevate content creation, and improve 
+                            customer satisfaction.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/cloud.png" alt="">
+                        </div>
+                        <h3>Cloud Applications</h3>
+                        <p>Enhance your business agility and scalability with cloud applications, whilst significantly reducing operational costs.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/md.png" alt="">
+                        </div>
+                        <h3>Model Deployment</h3>
+                        <p>Streamline model deployment to transition from development to production, ensuring your AI and ML models deliver 
+                            real-world value effectively.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/ml.png" alt="">
+                        </div>
+                        <h3>Machine Learning</h3>
+                        <p>Utilize machine learning to gain actionable insights from your data, enhancing decision-making, and tailoring your 
+                            services to meet the ever-evolving needs of your customers.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/aws.png" alt="">
+                        </div>
+                        <h3>AWS</h3>
+                        <p>Make your projects more powerful with AWS cloud infrastructure that is both secure and scalable, and designed to support 
+                            even the most demanding applications with high performance.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/service/python.png" alt="">
+                        </div>
+                        <h3>Python</h3>
+                        <p>Accelerate the development of your projects by leveraging Python's simplicity and versatility in programming to build 
+                            complex algorithms and applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service area  -->
 
-						<!-- One -->
-							<section id="one" class="wrapper alt spotlight style5">
-								<div class="inner">
-									<a class="image"><img src="images/me.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">ABOUT ME</h2>
-										<p>As an emerging data scientist, I am enthusiastic about devising various
-											machine learning algorithms to uncover hidden insights and develop
-											innovative business solutions. Solid programming skills in
-											<strong>Python</strong>, <strong>Java</strong>, and <strong>SQL</strong>
-											with marketing knowledge have leveraged data science to support many
-											business projects.
-											<br /><br />
-											I got Bachelor’s degree from the University of Washington and majored in Marketing and
-											Finance with a minor in Information Technology. Yet, I did not want to be
-											limited in a business thinking frame which encouraged me to study for my
-											Master's degree in Information & System Design at the University of Toronto.
-											<br /><br />
-											Are you ready to work with an innovator? Please get in touch with me by e-mail.
-										</p>
-										<!-- <a href="#" class="special">Learn more</a> -->
-									</div>
-								</div>
-							</section>
+    <!-- portfolio image area -->
+    <div class="portfolio_image_area" id="portfolio_image_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title white_text text-center mb-65">
+                        <h3>Recent projects
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-7 col-md-7">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/6_taxuby.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <h3>Taxuby - Generative AI</h3>
+                                <p>
+                                    The integration of LangChain with generative AI transformed the delivery of tax solutions, offering unmatched 
+                                    speed and accuracy. The implementation of project on AWS streamlined deployments while enhancing system security 
+                                    and reliability, elevating operational excellence and establishing new benchmarks in client trust.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Generative AI</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">LLM</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">AWS</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Model Deployment</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-5">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/5_pic.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <h3>Starbucks - Forecasting Tool</h3>
+                                <p>
+                                    An automated time series forecasting tool was developed to overhaul Starbucks' inventory system. This innovation 
+                                    resulted in a 36% reduction in food waste costs. The tool optimized inventory management for more than 100 SKUs 
+                                    and significantly improved forecasting accuracy.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Machine Learning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Web Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Java</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/4_pinxuan.jpg" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <h3>Pin Xuan Construction - Financial Tool</h3>
+                                <p>
+                                    A custom financial tool with PyQt5 interface was developed, automating the analysis of 2 million transactions to 
+                                    pinpoint key construction costs, streamlined monthly reporting processes and achieved a 40% reduction in labor 
+                                    costs, showcasing a significant leap in operational efficiency and financial management.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Application Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Financial Modeling</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Mining</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">UI/UX</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-5">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/3_hpt.jpg" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <h3>HPT - CRM Web App</h3>
+                                <p>
+                                    The development of a web-based CRM app integrated with MySQL databases helped the business to identify and 
+                                    streamline their operations, resulting in an increase in business efficiency by 30%.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Database Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Web Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">MySQL</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Java</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-lg-6">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/2_h&m.png" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://github.com/shengkaichen/HnM-Personalized-Fashion-Recommendations" target="_blank">
+                            <div class="title">
+                                <h3>H&M - Personalized Fashion Recommendations</h3>
+                                <p>
+                                    In the Kaggle competition for H&M, the implementation of the FP-Growth model and optimization of CI/CD pipelines 
+                                    in Azure ML to process 38 million transactions innovated personalized fashion recommendations.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Machine Learning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Mining</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Azure ML Studio</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-lg-6">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/1_molbak.png" alt="">
+                        </div>
+                        <div class="portfolio_hover">
+                            <div class="title">
+                                <h3>Molbak's Garden+Home - New Market Strategy</h3>
+                                <p>
+                                    Created a data analysis report to support a data-driven market segmentation strategy by leveraging IBM SPSS to 
+                                    analyze over 1000 customer surveys, revealing that customers traveling the furthest demonstrated the highest 
+                                    interest in products but the lowest in in-store services, leading to a tailored approach that increased potential 
+                                    customer engagement by 15%.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Analysis</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Custom Surveys</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">IBM SPSS</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-lg-6">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p7_ibm_ai.png" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://cognitiveclass.ai/courses/improve-customer-support-with-ai-powered-voice-services" target="_blank">
+                            <div class="title">
+                                <h3>Guided Project - IBM Watson Embeddable AI</h3>
+                                <p>
+                                    Developed an instructional lesson at IBM on creating a voice-enabled pizza-ordering application using IBM Watson 
+                                    Embeddable AI and Flask deployment, empowering users to seamlessly integrate machine learning models into their 
+                                    applications, thereby enhancing operational efficiency and unlocking new possibilities for workforce optimization 
+                                    through AI.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Embeddable AI</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">LLM</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">NLP</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Web Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-lg-6">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p6_ibm_nlp.png" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://cognitiveclass.ai/courses/natural-language-processing-with-hugging-face-transformers" target="_blank">
+                            <div class="title">
+                                <h3>Guided Project - NLP with Hugging Face</h3>
+                                <p>
+                                    Developed an instructional lesson at IBM on utilizing Hugging Face Transformers for diverse NLP applications, guiding 
+                                    users through the practical use of pre-trained models for tasks such as sentiment analysis, text summarization, 
+                                    translation, and more, enabling them to leverage AI for enhanced text analysis and communication solutions.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Embeddable AI</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">LLM</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">NLP</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Sentiment Analysis</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-md-7">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p5_cnn.jpg" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://theijournal.ca/index.php/ijournal/article/view/38614" target="_blank">
+                            <div class="title">
+                                <h3>Research Paper - Garbage Watch AI</h3>
+                                <p>
+                                    At the iJournal, a groundbreaking research paper was authored on the development of Garbage Watch AI, detailing 
+                                    the creation of an IoT-based robotic cleaner using computer vision to identify litter in natural environments, 
+                                    with the system deployed on Amazon EC2 using Mask R-CNN and the TACO dataset, aiming to address global plastic 
+                                    pollution by enhancing trash detection and collection in waterways.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Deep Learning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">CNN</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">AWS</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Arduino</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Open Source <br> Project</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-md-5">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p4_bike.png" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://github.com/shengkaichen/Citi-Bike-Demand-Forecasting" target="_blank">
+                            <div class="title">
+                                <h3>Open Source - Demand Forecasting</h3>
+                                <p>
+                                    Developed an open-source project leveraging Citi Bike's 2.8 million trip histories and customer data to predict 
+                                    daily station usage, enabling precise forecasting of bike demand to optimize station refills and enhance the 
+                                    customer experience by ensuring bike availability.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Machine Learning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Analysis</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Cleaning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Visualization</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-md-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p3_toolbox.jpg" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://github.com/shengkaichen/Machine-Learning-Toolbox" target="_blank">
+                            <div class="title">
+                                <h3>Open Source - ML Toolbox</h3>
+                                <p>
+                                    Developed an open-source Machine Learning Toolbox, designed to demystify the underlying principles of AI models 
+                                    by providing a transparent overview of fundamental machine learning concepts, paired with illustrative examples, 
+                                    catering to users seeking to deepen their understanding.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Machine Learning</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Analysis</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Data Cleaning</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p2_option.jpg" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://github.com/shengkaichen/American-Option-Calculator/tree/main" target="_blank">
+                            <div class="title">
+                                <h3>Open Source - Option Calculator</h3>
+                                <p>
+                                    Created an open-source American-Option-Calculator that integrates four distinct models (Barone-Adesi and Whaley, 
+                                    Bjerksund-Stensland, BlackScholes, Binomial option pricing) to offer precise pricing of American options.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Quantitative <br> Analysis</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Financial Modeling</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Python</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="single_Portfolio">
+                        <div class="portfolio_thumb">
+                            <img src="img/portfolio/p1_robot.jpg" alt="">
+                        </div>
+                        <a class="portfolio_hover" href="https://news.shoreline.edu/2016/04/28/engineering-students-win-at-asme-conference/" target="_blank">
+                            <div class="title">
+                                <h3>Open Source - Robot Design</h3>
+                                <p>
+                                    Developed an open-source project detailing the winning strategy for the Zumo 32U4 OLED Robot, which clinched 
+                                    first place at the 2016 ASME Pacific Northwest Engineering Student Design Conference.
+                                </p>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Robotics Design</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Autonomous <br> System Development</h6>
+                                </div>
+                                <div class="rectangle">
+                                    <h6 class="text-center">Arduino</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="more_button">
+                    <a href="https://github.com/shengkaichen" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio image area -->
 
-						<!-- Four -->
-							<section id="four" class="wrapper style1">
-								<div class="inner">
-									<h2 class="major">PROJECTS</h2>
-									<p></p>
-									<section class="features">
-										<article>
-											<a class="image"><img src="images/project1.jpg" alt="" /></a>
-											<h3 class="major">H&M Group</h3>
-											<p>Designed an association rules learning model (FP-Growth) to
-												sustainability predict near-future clothing purchases for each
-												customer.</p>
-											<a href="https://github.com/ytpmeeb/HnM-Personalized-Fashion-Recommendations" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/project2.jpg" alt="" /></a>
-											<h3 class="major">Starbucks Taiwan</h3>
-											<p>Developed a numeric prediction model (ARIMA, SARIMA, SARIMAX)
-												to estimate each product’s inventory trends through sales.</p>
-										</article>
-										<article>
-											<a class="image"><img src="images/project3.jpg" alt="" /></a>
-											<h3 class="major">Pin Xuan Construction Co. LTD</h3>
-											<p>Reduced the time of manually generating a monthly financial report by
-												creating a financial model in Python with UI in PyQt5 that
-												would semi-automatically analyze the past ten years' daily bookkeeping
-												data by the taxonomy approach.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/project4.jpg" alt="" /></a>
-											<h3 class="major">Hanseatic Pharma Trade GmbH</h3>
-											<p>Collaborated with web developers to eliminate current redundant business
-												practices by automatically translating accounting documents with
-												real-time visualizing daily business summaries on an internal website
-												based on Visual Basic and MySQL.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/project5.jpg" alt="" /></a>
-											<h3 class="major">Molbak's Garden + Home</h3>
-											<p>Supported the business to better understand their current customers by
-												performing a quantitative analysis based on thousands of customer
-												surveys and using IBM SPSS to validate our findings on hypothesis
-												testing.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/project6.jpg" alt="" /></a>
-											<h3 class="major">Snohomish Pie Company</h3>
-											<p>Assisted the business in increasing its brand awareness through Google
-												Ads by creating three search campaigns and getting 43,203 impressions
-												with only a $251.56 budget in 18 days.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-									</section>
-									<!-- <ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul> -->
-								</div>
-							</section>
+    <!-- discuss projects -->
+    <div class="discuss_projects" id="discuss_projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="project_text text-center">
+                        <h3>Let's Make The Impossible Possible</h3>
+                        <p>I revel in solving challenges. <br>
+                            Share your vision, and let's exploring innovative solutions.
+                        </p>
+                        <a class="boxed-btn3" href="https://www.linkedin.com/in/sheng-kai-chen/" target="_blank">Send message</a>
+                    </div>
+                </div>
+                <div class="socail_links">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/sheng-kai-chen/" target="_blank">
+                                <i class="fa fa-linkedin-square fa-2x fa-align-center"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/shengkaichen" target="_blank">
+                                <i class="fa fa-github-square fa-2x fa-align-center"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@shengkaikenchen" target="_blank">
+                                <i class="fa fa-medium fa-2x fa-align-center"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://author.skills.network/instructors/sheng-kai_chen_2" target="_blank">
+                                <i class="custom-logo">
+                                    <img src="img/about/sn-logo.svg" alt="">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://public.tableau.com/app/profile/ken.chen6551/vizzes" target="_blank">
+                                <i class="custom-logo">
+                                    <img src="img/about/tableau-public-logo.svg" alt="">
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.credly.com/users/sheng-kai-chen/badges" target="_blank">
+                                <i class="custom-logo">
+                                    <img src="img/about/credly-logo.svg" alt="">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- discuss projects -->
 
-						<!-- Five -->
-							<section id="five" class="wrapper alt style3">
-								<div class="inner">
-									<h2 class="major">PERSONAL PROJECTS</h2>
-									<p></p>
-									<section class="features">
-										<article>
-											<a class="image"><img src="images/p-project1.jpg" alt="" /></a>
-											<h3 class="major">Machine Learning Toolbox</h3>
-											<p>Machine learning is one of the central parts of the tools applied in AI
-											models. The toolbox doesn't focus on computationally efficient algorithms
-											but transparently presents the fundamental knowledge behind the mechanisms
-											with examples.</p>
-											<a href="https://github.com/ytpmeeb/Machine-Learning-Toolbox" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/p-project2.jpg" alt="" /></a>
-											<h3 class="major">Deep Learning</h3>
-											<p>Optimized a Mask R-CNN model by implementing the TACO dataset’s litter
-												annotation to identify various types of litter in environments.</p>
-											<a href="https://doi.org/10.33137/ijournal.v7i2.38614" class="special">Publication</a>
-											<a href="https://github.com/ytpmeeb/UOFT-TACO" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/p-project3.jpg" alt="" /></a>
-											<h3 class="major">American Option Calculator</h3>
-											<p>Combined four different models (Barone-Adesi and Whaley,
-												Bjerksund-Stensland, Black–Scholes, Binomial option pricing) to
-												accurately price American options with a customized range of stocks
-												price and days.</p>
-											<a href="https://github.com/ytpmeeb/American-Option-Calculator" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/p-project4.jpg" alt="" /></a>
-											<h3 class="major">Image Retrieval System</h3>
-											<p>Designed a jpg image retrieval algorithm converting the RGB values into
-												the matrix by Manhattan Distance to find the high similarity images.</p>
-											<a href="https://github.com/ytpmeeb/Image-Retrieval-System" class="special">Learn more</a>
-										</article>
-										<article>
-											<a class="image"><img src="images/p-project5.jpg" alt="" /></a>
-											<h3 class="major">Sumo Robot</h3>
-											<p>Built a winning strategy for the Zumo 32U4 OLED Robot model that
-												wined at the 2016 ASME Pacific Northwest Engineering Student Design
-												Conference.</p>
-											<a href="http://news.shoreline.edu/2016/04/28/engineering-students-win-at-asme-conference/" class="special">News</a>
-											<a href="https://github.com/ytpmeeb/Sumo-Robot" class="special">Learn more</a>
-										</article>
-									</section>
-								</div>
-							</section>
-					</section>
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by 
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a> and 
+                            <a href="https://www.linkedin.com/in/sheng-kai-chen/" target="_blank">ShengKai</a>. 
+                            The video is made by <a href="https://youtube.com/@Freevideobacks?si=3t2W_LT-2_CdkJLP" target="_blank">NO COPYRIGHT MOTION GRAPHICS</a>.
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">GET IN TOUCH</h2>
-							<p></p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Toronto, ON<br />
-								</li>
-								<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
-								<li class="icon solid fa-envelope"><a>shengkaikenchen@gmail.com</a></li>
-								<li class="icon brands fa-linkedin-in"><a href="https://www.linkedin.com/in/sheng-kai-chen/">LinkedIn</a></li>
-								<li class="icon brands fa-github-alt"><a href="https://github.com/ytpmeeb">GitHub</a></li>
-								<!-- <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li> -->
-							</ul>
-							<ul class="copyright">
-								<li>&copy; ajlkn All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
