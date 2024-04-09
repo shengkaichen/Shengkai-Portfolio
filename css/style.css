@@ -2054,7 +2054,7 @@ h3 {
 
 /* line 15, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 span {
-  color: #3F09FF;
+  color: #5a2bff;
   font-size: 50px;
   font-weight: 700;
 }
@@ -3145,7 +3145,7 @@ h3 {
 }
 
 .service_area img{
-  width: 99px;
+  width: 120px;
   height: 99px;
 }
 
@@ -3157,6 +3157,7 @@ h3 {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
