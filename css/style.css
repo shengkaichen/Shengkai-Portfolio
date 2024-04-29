@@ -1354,7 +1354,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/portfolio_banner.mp4);
+  /* background-image: url(../img/banner/portfolio_banner.mp4); */
+  background-image: url(https://raw.githubusercontent.com/shengkaichen/Shengkai-Portfolio/main/img/banner/portfolio_banner.mp4);
 }
 
 @media (min-aspect-ratio: 16/9) {
